@@ -1,18 +1,31 @@
-# Getting started with Quiz website
+# Getting Started with Quiz Website
 
-## Download and setup NodeJS API
-[Github repository](https://github.com/pedrohemmel/Quiz-API)
+## Download and Set Up NodeJS API
 
-## Download react dependencies with npm install
-- @testing-library/jest-dom
-- @testing-library/react
-- @testing-library/user-event
-- react
-- react-dom
-- react-router-dom
-- react-scripts
-- web-vitals
+First, clone the NodeJS API repository from GitHub:
 
-## code npm run build
+[Quiz-API GitHub Repository](https://github.com/pedrohemmel/Quiz-API)
 
-## code npm start
+Follow the instructions in the repository to set up and run the API.
+
+## Download React Dependencies
+
+Navigate to your React project directory and run the following command to install the necessary dependencies:
+
+```sh
+npm install @testing-library/jest-dom @testing-library/react @testing-library/user-event react react-dom react-router-dom react-scripts web-vitals
+```
+
+## Build and Start the React Application
+
+To build the application, run:
+
+```sh
+npm run build
+```
+
+To start the application, run:
+
+```sh
+npm start
+```
