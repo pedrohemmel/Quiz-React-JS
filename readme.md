@@ -4,14 +4,15 @@
 [Github repository](https://github.com/pedrohemmel/Quiz-API)
 
 ## Download react dependencies with npm install
-@testing-library/jest-dom": "^5.17.0",
-"@testing-library/react": "^13.4.0",
-"@testing-library/user-event": "^13.5.0",
-"react": "^18.3.1",
-"react-dom": "^18.3.1",
-"react-router-dom": "^6.23.1",
-"react-scripts": "5.0.1",
-"web-vitals": "^2.1.4"
+@testing-library/jest-dom
+
+@testing-library/react
+@testing-library/user-event
+react
+react-dom
+react-router-dom
+react-scripts
+web-vitals
 
 ## code npm run build
 
