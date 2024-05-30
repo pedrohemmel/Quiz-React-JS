@@ -4,6 +4,7 @@ import Login from './components/Login'
 import Register from './components/Register'
 import DashBoard from './components/DashBoard'
 import Game from './components/Game'
+import Introduction from './components/Introduction';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/register" element={<Register />}/>
             <Route path="/dashBoard" element={<DashBoard />}/>
             <Route path="/game" element={<Game />}/>
+            <Route path="/introduction" element={<Introduction />}/>
           </Routes>
         </header>
       </div>

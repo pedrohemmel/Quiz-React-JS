@@ -23,10 +23,12 @@ function Login() {
     })
     .then(response => response.json())
     .then(data => {
-      navigate("/dashboard", { state: { userData: data } });
+        if(data.id !== undefined) {
+            navigate("/dashboard", { state: { userData: data } });
+        } 
     })
     .catch(error => {
-      alert("Wrong credentials");
+      alert("Wrong credentials " + error);
     });
   };
 
